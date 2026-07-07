@@ -3,3 +3,7 @@ SELECT d.unique_id as unique_id, e.name as name
 FROM Employees e 
 left join EmployeeUNI d
 on e.id = d.id;
+
+
+/////////////////////////////////////////////////////////////////////
+1068. Product Sales Analysis I
