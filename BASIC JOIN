@@ -11,3 +11,6 @@ SELECT e.product_name, d.year, d.price
 FROM Sales d
 inner JOIN Product e
 on e.product_id = d.product_id;
+
+///////////////////////////////////////////////////////////////////////
+1581. Customer Who Visited but Did Not Make Any Transactions
