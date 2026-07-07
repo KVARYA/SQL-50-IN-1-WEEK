@@ -7,3 +7,7 @@ on e.id = d.id;
 
 /////////////////////////////////////////////////////////////////////
 1068. Product Sales Analysis I
+SELECT e.product_name, d.year, d.price
+FROM Sales d
+inner JOIN Product e
+on e.product_id = d.product_id;
