@@ -46,3 +46,7 @@ WHERE num IN (
     GROUP BY num
     HAVING COUNT(*) =1
 );
+
+
+//////////////////////////////////////////////////////////////////
+1045. Customers Who Bought All Products
