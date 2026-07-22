@@ -6,3 +6,7 @@ WHERE salary <30000 AND manager_id NOT IN (
     FROM Employees
 )
 ORDER BY employee_id;
+
+
+//////////////////////////////////////////////////////////////////////////
+626. Exchange Seats
