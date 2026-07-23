@@ -101,3 +101,7 @@ WHERE tiv_2015 IN (
     GROUP BY lat,lon
     HAVING COUNT(*) = 1
 )
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+185. Department Top Three Salaries
