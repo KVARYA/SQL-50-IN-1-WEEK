@@ -68,3 +68,7 @@ WHERE visited_on >= (
     FROM Customer
 )
 GROUP BY visited_on ORDER BY visited_on
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+602. Friend Requests II: Who Has the Most Friends
