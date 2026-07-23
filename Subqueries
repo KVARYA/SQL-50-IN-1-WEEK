@@ -83,3 +83,7 @@ SELECT accepter_id FROM RequestAccepted
 GROUP BY id
 ORDER BY num DESC
 LIMIT 1 OFFSET 0
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+585. Investments in 2016
