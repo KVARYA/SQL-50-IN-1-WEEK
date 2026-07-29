@@ -39,3 +39,7 @@ SELECT sell_date,
 FROM Activities
 GROUP BY sell_date
 ORDER BY sell_date, product
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+1327. List the Products Ordered in a Period
