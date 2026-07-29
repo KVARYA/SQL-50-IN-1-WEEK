@@ -25,3 +25,7 @@ WHERE p1.email = p2.email AND  p1.id > p2.id
 SELECT MAX(salary) AS SecondHighestSalary
 FROM Employee
 WHERE salary < (SELECT MAX(salary) FROM Employee);
+
+
+////////////////////////////////////////////////////////////////////////////////
+1484. Group Sold Products By The Date
